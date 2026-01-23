@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>artists | istadol</title>
+    <link rel="icon" href="../items/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="artist.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            
+            <div id="logo">
+                <a href="../homePage/home.html">
+                    <img src="../items/instadol.svg" alt="logo">
+                </a>
+            </div>
+
+
+            <ul class="off-screen-menu">
+                <li><a href="../homePage/home.html" >Home</a></li>
+                <li><a href="../allArtistsPage/allArtists.html" class="active">Artists</a></li>
+                <li><a href="../eventsPage/events.html" >Events</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <button id="back-arrow">
+            <a href="../allArtistsPage/allArtists.html">
+                <img src="../items/bx-left-arrow-alt.svg" alt="left arrow">
+            </a>
+        </button>
+
+        <div id="artist-wrapper">
+            <div id="header">
+    
+                <aside>
+                    
+                </aside>
+    
+            </div>
+    
+            <div id="body-grid">
+    
+                <div id="body-menu">
+                    <ul>
+                        <li class="active" data-tab="gallery">gallery</li>
+                        <li data-tab="members">members</li>
+                        <li data-tab="albums">discography</li>
+                        <li data-tab="tour">tour</li>
+                    </ul>
+                </div>
+        
+                <div id="main-body">
+                    <div class="tab-content display" id="gallery">
+                        
+                    </div>
+    
+                    <div class="tab-content hide" id="members">
+                    
+                    </div>
+    
+                    <div class="tab-content hide" id="albums">
+        
+                    </div>
+    
+                    <div class="tab-content hide" id="tour">
+                        <h2 id="current_date"></h2>
+                        <table id="calendar" colspan="4">
+                                <thead id="days"></thead>
+                                <tbody id="dates"></tbody>
+                        </table>
+                        <div id="events">
+                            <div class="record">
+                                <span class="circle">r</span>
+                                <p>record</p>
+                            </div>
+                            <div class="concert">
+                                <span class="circle">c</span>
+                                <p>concert</p>
+                            </div>
+                        </div>
+                    </div>
+    
+                </div>
+            </div>   
+        </div>
+        
+
+    </main>
+    <footer>
+        <div id="logo">
+            <img src="../items/instadol.svg" alt="logo">
+        </div>
+        
+        <div id="legal_terms">
+            <p>
+                <a href="#">Privacy Policy</a> | <a href="#">Terms of use</a> | <a href="#">Customer service</a>
+            </p>
+            <p>
+                COPYRIGHT&copy; 2025. ALL RIGHTS RESERVED
+            </p>
+        </div>
+    </footer>
+</body>
+<script type="module" src="artist.js"></script>
+</html>
