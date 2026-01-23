@@ -1,0 +1,335 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    font-size: 12px;
+    --font-family: 'poppins';
+    --bg-color: black;
+    --color: white;
+    --header-color: rgb(255, 125, 73);
+}
+
+body {
+    width: 100vw;
+    max-width: 100%;
+    min-height: 100vh;
+    font-family: var(--font-family);
+    background-color: var(--bg-color);
+    overflow-y: auto;
+
+    &::-webkit-scrollbar {
+        width: 0;
+    }
+}
+
+
+/* header navigation */
+header {
+    --color: black;
+    background-color: var(--header-color);
+    color: var(--color);
+    width: 100%;
+    height: 10vh;
+    padding: 3em 1em;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+}
+
+#logo {
+    width: 5%;
+
+    img {
+        max-width: 100%;
+    }
+}
+
+nav {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    #hamburger {
+        display: none;
+    }
+
+    ul {
+        list-style: none;
+        display: inline-flex;
+        gap: 2em;
+        --color: white;
+    }
+
+    ul li a{
+        position: relative;
+        font-size: 1.2rem;
+        font-weight: 600;
+        cursor: pointer;
+        text-decoration: none;
+        color: var(--color);
+
+        &:hover {
+            color: rgb(237, 237, 237);
+        }
+    }
+
+    ul li a.active::after {
+        position: absolute;
+        content: "";
+        left: 0;
+        width: 40%;
+        height: 1px;
+        border-bottom: 2px solid var(--color);
+        bottom: -6px;
+        color: var(--color);
+        transition: 0.3s ease-in;
+    }
+
+    ul li a:hover::after {
+        width: 0;
+    }
+
+    form input {
+        font-family: var(--font-family);
+        --color: white;
+        width: 30vw;
+        height: 7vh;
+        padding: 0 1em;
+        border: none;
+        background-color: transparent;
+        border-bottom: 1px solid var(--color);
+        color: var(--color);
+        outline: none;
+    }
+
+    input::placeholder {
+        color: rgb(223, 223, 223);
+    }
+}
+
+/* main content */
+main {
+    width: 100%;
+    height: fit-content;
+    position: relative;
+    top: 20%;
+}
+
+#wrapper {
+    width: 100%;
+    max-width: 100%;
+    height: fit-content;
+    display: grid;
+    padding: 1em;
+    gap: 4em;
+    color: var(--color);
+}
+
+#artists-wrapper {
+    position: relative;
+    justify-self: center;
+    align-items: center;
+    height: fit-content;
+    width: 90%;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    gap: 1em;
+    animation: slideEffect 1.5s;
+}
+
+.artist {
+    color: var(--color);
+    display: flex;
+    align-items: end;
+    padding: 1em;
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    cursor: pointer;
+}
+
+.artist-link {
+    display: block;
+    height: 40vh;
+    width: 100%;
+    position: relative;
+    text-decoration: none;
+    transform: translateY(1.5px);
+    transition: transform 0.3s ease-in-out;
+}
+
+.artist-link:hover {
+    transform: translateY(0);
+    
+}
+
+#wrapper h1 {
+    font-size: 1rem;
+    width: 100%;
+    justify-self: left;
+    border-bottom: 1px solid var(--header-color);
+    color: var(--header-color);
+}
+
+/* footer */
+footer {
+    display: flex;
+    gap: 3em;
+    align-items: flex-end;
+    position: relative;
+    padding: 1em;
+    height: fit-content;
+    width: 100%;
+    background-color: var(--header-color);
+    
+
+    p {
+        margin-top: 0.5rem;
+        color: var(--color);
+
+        a {
+            text-decoration: none;
+            color: var(--color);
+        }
+    }
+}
+
+
+@keyframes slideEffect {
+    from {
+        opacity: 0;
+        transform: translateX(50px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@media only screen and (max-width: 480px) and (orientation: portrait){
+     /* navigation */
+    header {
+        height: 6vh;
+        padding: 2.5em 1em;
+        background-color: var(--header-color);
+    }
+
+    form input {
+       margin-left: 5rem;
+    }
+
+    #logo {
+        width: 14%;
+        margin-top: 1rem; 
+        z-index: 2;
+    }
+    
+    nav {
+        justify-content: left;
+        gap: 1.5em;
+        
+        ul {
+            width: 50%;
+            background-color: var(--header-color);
+            height: 100vh;
+            position: fixed;
+            top: 0%;
+            left: 0;
+            flex-direction: column;
+            padding: 7em 1em;
+            left: -250px;
+            transition: 0.3s ease-in-out;
+            
+        }
+
+        ul.active {
+            left: 0;
+        }
+    
+        ul li a {
+            font-size: 2.5rem;
+
+            &:active {
+                --bg-color: black;
+                color: var(--bg-color);
+            }
+        }
+
+        #hamburger {
+            display: grid;
+            height: 40px;
+            width: 40px;
+            max-width: 100%;
+            align-items: center;
+            cursor: pointer;
+            position: relative;
+            z-index: 2;
+            
+
+            span {
+                width: 100%;
+                height: 5px;
+                position: absolute;
+                --color: white;
+                background-color: var(--color);
+                border-radius: 15px;
+                transition: 0.3s ease-in;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+            }
+        }
+
+        #hamburger span:nth-child(1) {
+            top: 25%;
+        }
+
+        #hamburger span:nth-child(3) {
+            top: 75%;
+        }
+
+        #hamburger.active span:nth-child(1) {
+            top: 50%;
+            transform: translate(-50%, -50%) rotate(45deg);
+        }
+
+        #hamburger.active span:nth-child(2) {
+            opacity: 0;
+        }
+
+        #hamburger.active span:nth-child(3) {
+            top: 40%;
+            transform: translate(-50%, 50%) rotate(-45deg);
+        }
+    }
+    
+    main{
+        top: 15%;
+    }
+
+    #wrapper {
+        max-width: 100%;
+    }
+
+    #artists-wrapper {
+        width: 100%;
+        grid-template-columns: 45% 45%;
+        justify-content: center;
+    }
+
+    .artist-link {
+        height: 20vh;
+    }
+
+    footer {
+        margin-top: 12rem;
+    }
+}
