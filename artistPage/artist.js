@@ -1,7 +1,7 @@
 import {renderGrid,createImageCard, createMemberCard, createAlbumCard, imageView, imgView} from './imageCards.js';
 import { createCalendar } from "./calendar.js";
 import { hamburger } from '../hamburgerMenu.js';
-import {createElements} from '../createElements.js';
+import {createElements} from './createElements.js';
 
 const gallery = document.querySelector('#gallery');
 const members = document.querySelector('#members');
@@ -96,6 +96,7 @@ tabs.forEach(tab => {
 
     });
 });
+
 
 
 
