@@ -1,6 +1,5 @@
+import {createElements} from './createElements.js';
 //image-gallery
-
-
 function renderGrid(data, container, createCard) {
     container.innerHTML = '';
         data.forEach(item => {
@@ -27,17 +26,11 @@ function createImageCard(feed) {
 
 //members cards
 function createMemberCard(member) {
-    const card = document.createElement('div');
-    card.classList.add('profile_card');
-
-    const img = document.createElement('img');
-    img.classList.add('member_img');
-    img.src = member.photo;
+    const card = createElements('div',{className: 'profile_card', text: null, src: null});
+    const img = createElements('img',{className: 'member_img', text: null, src: member.photo});
     img.alt = member.stageName;
-
-    const name = document.createElement('p');
-    name.classList.add('member_name');
-    name.textContent = member.stageName;
+    
+    const name = createElements('h2',{className: 'member_name', text: member.stageName, src: null});
     memberInfo(member);
 
     card.append(img, name);
@@ -45,51 +38,31 @@ function createMemberCard(member) {
 }
 //album cards
 function createAlbumCard(album) {
-    const card = document.createElement('div');
-    card.classList.add('album_cover');
+    const card = createElements('div', {className: 'album_cover', text: null, src: null});
+    const img = createElements('img', {className: 'album_img', text: null, src: album.image});
+    const albumLink = createElements('a', {className: 'album_link', text: album.name, src: null});
+    albumLink.href = album.link;
+    albumLink.target = "_blank";
 
-    const img = document.createElement('img');
-        img.classList.add('album_img');
-        img.src = album.image;
-
-    const link = document.createElement('a');
-    link.classList.add('album_link');
-    link.href = album.link;
-    link.target = "_blank";
-    link.textContent = album.name;
-   
-
-    card.append(img, link);
+    card.append(img, albumLink);
     return card;
 }
 
 // image modal 
 function pictureView(src, text) {
     //creating modal
-    const modal = document.createElement('dialog');
-    modal.classList.add('modal');
+    const modal = createElements('dialog', {className: 'modal', text: null, src: null});
+    const modalWrapper = createElements('div', {className: 'modal-wrapper', text: null, src: null});
+    const closeModal = createElements('div', {className: 'close-modal', text: null, src: null});
+    const imageWrapper = createElements('div', {className: 'image-wrapper', text: null, src: null});
+    const closeView = createElements('img', {className: null, text: null, src: '../items/bx-x.svg'});
+    const imageView = createElements('img', {className: null, text: null, src: src});
+    const imageText = createElements('div', {className: 'backgr-info', text: null, src: null});
     document.querySelector('main').appendChild(modal);
-    
-    const modalWrapper = document.createElement('div');
-    modalWrapper.classList.add('modal-wrapper');
-
-    const closeModal = document.createElement('div');
-    closeModal.classList.add('close-modal');
-    const imageWrapper = document.createElement('div');
-    imageWrapper.classList.add('image-wrapper');
-
-    const closeView = document.createElement('img');
-    closeView.src = '../items/bx-x.svg';
 
     closeView.onclick = () => {
         modal.remove();
     }
-
-    const imageView = document.createElement('img');
-    imageView.src = src;
-    
-    const imageText = document.createElement('div');
-    imageText.classList.add('backgr-info');
 
     imageText.append(text);
     closeModal.appendChild(closeView);
@@ -173,6 +146,7 @@ function imgView(arr) {
         });
     });
 }
+
 
 
 
