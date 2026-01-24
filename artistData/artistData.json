@@ -1,0 +1,1082 @@
+[ 
+{
+    "ID": "ive",
+    "name": "IVE",
+    "listeners": "6.2M",
+    "profileImage": "../artistData/iveArtist/profileImage.jpg",
+    
+    "members": 
+    [
+        {
+            "ID": "Liz",
+            "photo": "../artistData/iveArtist/ive_05.jpg",
+            "name": "Kim Ji-won",
+            "stageName": "Liz",
+            "dob": "21-11-2004",
+            "height": "5'8ft",
+            "position": "Main Vocalist",
+            "nationality": "Korean",
+            "instagram": "https://www.instagram.com/liz.yeyo/",
+            "instagram_handle": "liz.yeyo",
+            "facts": "Liz was the 4th member to be revealed"
+        },
+    
+        {
+            "ID": "Leeseo",
+            "photo": "../artistData/iveArtist/ive_06.jpg",
+            "name": "Lee Hyun-seo",
+            "stageName": "Leeseo",
+            "dob": "21-02-2007",
+            "height": "5'5ft",
+            "position": "Sub-Vocalist",
+            "nationality": "Korean",
+            "instagram": "https://www.instagram.com/eeseooes/",
+            "instagram_handle": "eeseooes",
+            "facts": "Leeseo was a model for SM Kids"
+        },
+    
+        {
+            "ID": "Anyujin",
+            "photo": "../artistData/iveArtist/ive_01.jpg",
+            "name": "An Yu-jin",
+            "stageName": "Anyujin",
+            "dob": "01-09-2003",
+            "height": "5'8ft",
+            "position": "Leader, Main vocalist",
+            "nationality": "Korean",
+            "instagram": "https://www.instagram.com/_yujin_an/",
+            "instagram_handle": "_yujin_an",
+            "facts": "Anyujin is the youngest contestant to appear on The Masked Singer"
+        },
+    
+        {
+            "ID": "Gaeul",
+            "photo": "../artistData/iveArtist/ive_02.jpg",
+            "name": "Kim Ga-eul",
+            "stageName": "Gaeul",
+            "dob": "24-09-2002",
+            "height": "5'5ft",
+            "position": "Rapper",
+            "nationality": "Korean",
+            "instagram": "https://www.instagram.com/fallingin__fall/",
+            "instagram_handle": "fallingin_fall",
+            "facts": "Gaeul is the oldest member of IVE"
+        },
+    
+        {
+            "ID": "Rei",
+            "photo": "../artistData/iveArtist/ive_03.jpg",
+            "name": "Naoi Rei",
+            "stageName": "Rei",
+            "dob": "03-02-2004",
+            "height": "5'7ft",
+            "position": "Rapper",
+            "nationality": "Japanese",
+            "instagram": "https://www.instagram.com/reinyourheart/",
+            "instagram_handle": "reinyourheart",
+            "facts": "Rei and Anyujin shared a room during trainee days"
+        },
+    
+        {
+            "ID": "Wonyoung",
+            "photo": "../artistData/iveArtist/ive_04.jpg",
+            "name": "Jang Won-young",
+            "stageName": "Wonyoung",
+            "dob": "31-08-2004",
+            "height": "5'8ft",
+            "position": "Sub-Vocalist",
+            "nationality": "Korean",
+            "instagram": "https://www.instagram.com/for_everyoung10/",
+            "instagram_handle": "for_everyoung10",
+            "facts": "Wonyoung can play the piano, flute and violin"
+        }
+    ],
+
+    "feedImages": 
+    [
+        {
+            "image": "../artistData/iveArtist/group-pic-1.jpg",
+            "imageAbout": "IVE 2026 season's greeting"
+        },
+        {
+            "image": "../artistData/iveArtist/group-pic-2.jpg",
+            "imageAbout": "IVE 2026 season's greeting"
+        },
+        {
+            "image": "../artistData/iveArtist/ive-group.jpg",
+            "imageAbout": "IVE I HAVE 2nd mini album"
+        }
+    ],
+
+    "agency": "starship",
+
+    "albums": 
+    [
+        {
+            "name": "SECRET",
+            "image": "../artistData/iveArtist/ivesecret.jpg",
+            "link": "https://www.youtube.com/watch?v=B1ShLiq3EVc&list=OLAK5uy_ka-G4CA7pqFVQaDtXS75b-JiAuua43XZY"
+        },
+        {
+            "name": "I HAVE",
+            "image":"../artistData/iveArtist/iveihave.avif",
+            "link": "https://www.youtube.com/watch?v=8ZcfwNisYso&list=OLAK5uy_kP9g19XwDHpLuazSyC58BYbuuCrzzWuv8&pp=0gcJCbEEOCosWNin"
+        },
+        {
+            "name": "SWITCH",
+            "image":"../artistData/iveArtist/switch.jpg",
+            "link": "https://www.youtube.com/watch?v=07EzMbVH3QE&list=OLAK5uy_kMNOUUk5ycwXQJ8BLQarzgwEvkKMKAceM"
+        },
+        {
+            "name": "EMPATHY",
+            "image": "../artistData/iveArtist/iveempathy.jpg",
+            "link": "https://www.youtube.com/watch?v=g36q0ZLvygQ&list=OLAK5uy_mI2KrsNYBeTT4Q25_29XmoXVxI6oozi_U"
+        },
+        {
+            "name": "I'VE MINE",
+            "image": "../artistData/iveArtist/ivemine.jpg",
+            "link": "https://www.youtube.com/watch?v=_ApV7Lm87cg&list=OLAK5uy_mUSidV3nitJ1fblQ0KEoqcrBnwLOGUjQM"
+        },
+        {
+            "name": "AFTER LIKE",
+            "image": "../artistData/iveArtist/AFTER LIKE.jpg",
+            "link": "https://www.youtube.com/watch?v=F0B7HDiY-10&list=OLAK5uy_nraGEkhFHwHNrn_sGsjgIf6erwWpDRibY"
+        }
+    ]
+
+},
+
+{
+    "ID": "blackpink",
+    "name": "Blackpink",
+    "listeners": "24.3M",
+    "profileImage": "../artistData/bpArtist/bpGroup.jpg",
+    
+    "members": 
+    [
+        {
+            "ID": "Jisoo",
+            "photo": "../artistData/bpArtist/jisoo.jpg",
+            "name": "Kim Ji-soo",
+            "stageName": "Jisoo",
+            "dob": "03-01-1995",
+            "height": "5'3ft",
+            "position": "Lead Vocalist",
+            "nationality": "Korean",
+            "zodiacSign": "Capricon",
+            "instagram": "https://www.instagram.com/sooyaaa__/",
+            "instagram_handle": "sooyaaa_",
+            "facts": "According to Jennie, Jisoo is the more cheerful one in the group"
+        },
+    
+        {
+            "ID": "Jennie",
+            "photo": "../artistData/bpArtist/jennie.jpg",
+            "name": "Kim Jennie",
+            "stageName": "Jennie",
+            "dob": "16-01-1996",
+            "height": "5'4ft",
+            "position": "Lead Vocalist, Main Rapper",
+            "nationality": "Korean",
+            "zodiacSign": "Capricon",
+            "instagram": "https://www.instagram.com/jennierubyjane/",
+            "instagram_handle": "jennierubyjane",
+            "facts": "On 01 january in 2019, it was revealed that Jennie and EXO's Kai are dating"
+        },
+    
+        {
+            "ID": "Rose",
+            "photo": "../artistData/bpArtist/rose.jpg",
+            "name": "Park Chae-young",
+            "stageName": "Rose",
+            "dob": "11-02-1997",
+            "height": "5'6ft",
+            "position": "Lead Dancer, Main vocalist",
+            "nationality": "Korean",
+            "zodiacSign": "Aquarius",
+            "instagram": "https://www.instagram.com/roses_are_rosie/",
+            "instagram_handle": "roses_are_rosie",
+            "facts": "Rose was born in Auckland, New Zealand and raised in Melbourne, Australia"
+        },
+    
+        {
+            "ID": "Lisa",
+            "photo": "../artistData/bpArtist/lisa.jpg",
+            "name": "Lalisa Manobal",
+            "stageName": "Lisa",
+            "dob": "27-03-1997",
+            "height": "5'5ft",
+            "position": "Lead Rapper, Main Dancer",
+            "nationality": "Thai",
+            "zodiacSign": "Aries",
+            "instagram": "https://www.instagram.com/lalalalisa_m/",
+            "instagram_handle": "lalalalisa_m",
+            "facts": "She was the only contestant accepted by YG during the YG 2010 audition in Thailand"
+        }
+    
+    ],
+
+    "feedImages": 
+    [
+        {
+            "image": "../artistData/bpArtist/blackpink-jump.jpg",
+            "imageAbout": "Blackpink 'jump' music video reached 100 million views on youtube"
+        },
+        {
+            "image": "../artistData/bpArtist/blackpink-pink-venom.jpg",
+            "imageAbout": "Blackpink 'pink venom' music video reached 1 billion views on youtube"
+        },
+        {
+            "image": "../artistData/bpArtist/blackpink- backstage.jpg",
+            "imageAbout": "blackpink in the backstage of the world concert"
+        }
+    ],
+
+    "agency": "YG",
+
+    "albums": 
+    [
+        {
+            "name": "JUMP",
+            "image": "../artistData/bpArtist/cover(960x960)_1.jpg",
+            "link": "https://www.youtube.com/watch?v=B1ShLiq3EVc&list=OLAK5uy_ka-G4CA7pqFVQaDtXS75b-JiAuua43XZY"
+        },
+        {
+            "name": "BORN PINK",
+            "image":"../artistData/bpArtist/blackpink-album-bornpink.jpg",
+            "link": "https://www.youtube.com/watch?v=07EzMbVH3QE&list=OLAK5uy_kMNOUUk5ycwXQJ8BLQarzgwEvkKMKAceM"
+        },
+        {
+            "name": "PINK VENOM",
+            "image":"../artistData/bpArtist/blackpink-album-pinkvenom.jpg",
+            "link": "https://www.youtube.com/watch?v=8ZcfwNisYso&list=OLAK5uy_kP9g19XwDHpLuazSyC58BYbuuCrzzWuv8&pp=0gcJCbEEOCosWNin"
+        },
+        {
+            "name": "HOW YOU LIKE THAT",
+            "image": "../artistData/bpArtist/blackpink-album-howyoulikethat.jpg",
+            "link": "https://www.youtube.com/watch?v=_ApV7Lm87cg&list=OLAK5uy_mUSidV3nitJ1fblQ0KEoqcrBnwLOGUjQM"
+        },
+        {
+            "name": "KILL THIS LOVE",
+            "image": "../artistData/bpArtist/blackpink-album-killthislove.jpg",
+            "link": "https://www.youtube.com/watch?v=_ApV7Lm87cg&list=OLAK5uy_mUSidV3nitJ1fblQ0KEoqcrBnwLOGUjQM"
+        },
+        {
+            "name": "AS IF IT'S YOUR LAST",
+            "image": "../artistData/bpArtist/blackpink-album-asifitsyourlast.jpg",
+            "link": "https://www.youtube.com/watch?v=_ApV7Lm87cg&list=OLAK5uy_mUSidV3nitJ1fblQ0KEoqcrBnwLOGUjQM"
+        },
+        {
+            "name": "ICE CREAM",
+            "image": "../artistData/bpArtist/blackpink-album-icecream.jpg",
+            "link": "https://www.youtube.com/watch?v=_ApV7Lm87cg&list=OLAK5uy_mUSidV3nitJ1fblQ0KEoqcrBnwLOGUjQM"
+        },
+        {
+            "name": "THE ALBUM",
+            "image": "../artistData/bpArtist/blackpink-album-thealbum.jpg",
+            "link": "https://www.youtube.com/watch?v=_ApV7Lm87cg&list=OLAK5uy_mUSidV3nitJ1fblQ0KEoqcrBnwLOGUjQM"
+        },
+        {
+            "name": "SQUARE UP",
+            "image": "../artistData/bpArtist/blackpink-album-squareup.jpg",
+            "link": "https://www.youtube.com/watch?v=g36q0ZLvygQ&list=OLAK5uy_mI2KrsNYBeTT4Q25_29XmoXVxI6oozi_U"
+        },
+        {
+            "name": "SQUARE TWO",
+            "image": "../artistData/bpArtist/blackpink-album-squaretwo_3.jpg",
+            "link": "https://www.youtube.com/watch?v=_ApV7Lm87cg&list=OLAK5uy_mUSidV3nitJ1fblQ0KEoqcrBnwLOGUjQM"
+        },
+        {
+            "name": "SQUARE ONE",
+            "image": "../artistData/bpArtist/blackpink-album-squareone.jpg",
+            "link": "https://www.youtube.com/watch?v=F0B7HDiY-10&list=OLAK5uy_nraGEkhFHwHNrn_sGsjgIf6erwWpDRibY"
+        }
+    ]
+
+},
+
+{
+    "ID": "le sserafim",
+    "name": "Le sserafim",
+    "listeners": "17M",
+    "profileImage": "../artistData/lesseraArtist/lesarrefilm.jpg",
+    
+    "members": 
+    [
+        {
+            "ID": "kim chaewon",
+            "photo": "../artistData/lesseraArtist/kim-chaewon.jpg",
+            "name": "Kim Chae-won",
+            "stageName": "Kim Chaewon",
+            "dob": "01-08-2000",
+            "height": "5'4ft",
+            "position": "Leader, Vocalist",
+            "nationality": "Korean",
+            "zodiacSign": "Leo",
+            "instagram": "https://www.instagram.com/_chaechae_1/",
+            "instagram_handle": "_chaechae_1",
+            "facts": "Chaewon's favourite ice-cream is mint chocolate"
+        },
+    
+        {
+            "ID": "sakura",
+            "photo": "../artistData/lesseraArtist/sakura.jpg",
+            "name": "Miyawaki Sakura",
+            "stageName": "Sakura",
+            "dob": "19-03-1998",
+            "height": "5'4ft",
+            "position": "Vocalist, Rapper",
+            "nationality": "Japanese",
+            "zodiacSign": "Pisces",
+            "instagram": "https://www.instagram.com/39saku_chan/",
+            "instagram_handle": "39saku_chan",
+            "facts": "Sakura's childhood dream was becoming a doctor"
+        },
+    
+        {
+            "ID": "huh yunjin",
+            "photo": "../artistData/lesseraArtist/huh-yunjin.jpg",
+            "name": "Huh Yun-jin",
+            "stageName": "Huh Yunjin",
+            "dob": "08-10-2001",
+            "height": "5'7ft",
+            "position": "Rapper, Vocalist",
+            "nationality": "Korean-American",
+            "zodiacSign": "Libra",
+            "instagram": "https://www.instagram.com/jenaissante/",
+            "instagram_handle": "jenaissante",
+            "facts": "Huh yunjin is a fan of Girls Generation and BTS"
+        },
+    
+        {
+            "ID": "kazuha",
+            "photo": "../artistData/lesseraArtist/kazuha.jpg",
+            "name": "Nakamura Kazuha",
+            "stageName": "Kazuha",
+            "dob": "09-08-2003",
+            "height": "5'7ft",
+            "position": "Rapper, Sub-Vocalist",
+            "nationality": "Japanese",
+            "zodiacSign": "Leo",
+            "instagram": "https://www.instagram.com/zuhazana/",
+            "instagram_handle": "zuhazana",
+            "facts": "Kazuha is a professional ballerina, she won domestic and international competitions"
+        },
+        {
+            "ID": "hong eunchae",
+            "photo": "../artistData/lesseraArtist/hong-eunchae.jpg",
+            "name": "Hong Eun-chae",
+            "stageName": "Hong Eunchae",
+            "dob": "10-11-2006",
+            "height": "5'6ft",
+            "position": "Vocalist",
+            "nationality": "Korean",
+            "zodiacSign": "Scorpio",
+            "instagram": "https://www.instagram.com/hhh.e_c.v/",
+            "instagram_handle": "hhh.e_c.v",
+            "facts": "Hong eunchae mastered the 'fearless' choreography in 2 hours"
+        }
+    
+    ],
+
+    "feedImages": 
+    [
+        {
+            "image": "../artistData/lesseraArtist/lesarrefilm.jpg",
+            "imageAbout": "Le sserafim new single 'spaghetti' featuring J-hope"
+        },
+        {
+            "image": "../artistData/lesseraArtist/lesserafim-group-image.jpg",
+            "imageAbout": "Le sserafim ELLE behind the scenes of their perfomance on Dick Clark's New York, Rockin' Eve"
+        },
+        {
+            "image": "../artistData/lesseraArtist/lesserafim-group-image-2.jpg",
+            "imageAbout": "Huh Yunjin and Kim Chaewon ELLE behind the scenes of Rockin' Eve perfomance on Dick Clark"
+        }
+    ],
+
+    "agency": "HYBE",
+
+    "albums": 
+    [
+        {
+            "name": "SPAGHETTI",
+            "image": "../artistData/lesseraArtist/lesarrefilm.jpg",
+            "link": "https://www.youtube.com/watch?v=_ApV7Lm87cg&list=OLAK5uy_mUSidV3nitJ1fblQ0KEoqcrBnwLOGUjQM"
+        },
+        {
+            "name": "HOT",
+            "image": "../artistData/lesseraArtist/lesserafim-album-hot.png",
+            "link": "https://www.youtube.com/watch?v=_ApV7Lm87cg&list=OLAK5uy_mUSidV3nitJ1fblQ0KEoqcrBnwLOGUjQM"
+        },
+        {
+            "name": "CRAZY",
+            "image": "../artistData/lesseraArtist/lesserafim-album-crazy.jpg",
+            "link": "https://www.youtube.com/watch?v=_ApV7Lm87cg&list=OLAK5uy_mUSidV3nitJ1fblQ0KEoqcrBnwLOGUjQM"
+        },
+        {
+            "name": "EASY",
+            "image": "../artistData/lesseraArtist/lesserafim-album-easy.png",
+            "link": "https://www.youtube.com/watch?v=g36q0ZLvygQ&list=OLAK5uy_mI2KrsNYBeTT4Q25_29XmoXVxI6oozi_U"
+        },
+        {
+            "name": "PERFECT NIGHT",
+            "image": "../artistData/lesseraArtist/lesserafim-album-perfectNight.jpg",
+            "link": "https://www.youtube.com/watch?v=_ApV7Lm87cg&list=OLAK5uy_mUSidV3nitJ1fblQ0KEoqcrBnwLOGUjQM"
+        },
+        {
+            "name": "ANTIFRAGILE",
+            "image": "../artistData/lesseraArtist/lesserafim-album-antifragile.png",
+            "link": "https://www.youtube.com/watch?v=F0B7HDiY-10&list=OLAK5uy_nraGEkhFHwHNrn_sGsjgIf6erwWpDRibY"
+        },
+        {
+            "name": "UNFORGIVABLE",
+            "image": "../artistData/lesseraArtist/Lesserafim-album-unforgivable.jpg",
+            "link": "https://www.youtube.com/watch?v=F0B7HDiY-10&list=OLAK5uy_nraGEkhFHwHNrn_sGsjgIf6erwWpDRibY"
+        },
+        {
+            "name": "FEARLESS",
+            "image": "../artistData/lesseraArtist/lesserafim-album-fearless.png",
+            "link": "https://www.youtube.com/watch?v=F0B7HDiY-10&list=OLAK5uy_nraGEkhFHwHNrn_sGsjgIf6erwWpDRibY"
+        }
+    ]
+
+},
+
+{
+    "ID": "katseye",
+    "name": "Katseye",
+    "listeners": "34.4M",
+    "profileImage": "../artistData/katseyeArtist/katseye-group-pic.jpg",
+    
+    "members": 
+    [
+        {
+            "ID": "sophia",
+            "photo": "../artistData/katseyeArtist/sophia.jpg",
+            "name": "Sophia Elizabeth Guevara Laforteza",
+            "stageName": "Sophia",
+            "dob": "31-12-2002",
+            "height": "5'6ft",
+            "position": "Leader",
+            "nationality": "Filipina",
+            "zodiacSign": "Capricon",
+            "instagram": "https://www.instagram.com/sophia_laforteza/",
+            "instagram_handle": "sophia_laforteza",
+            "facts": "Sophia is christian"
+        },
+    
+        {
+            "ID": "daniela",
+            "photo": "../artistData/katseyeArtist/daniel.jpg",
+            "name": "Daniel Adrea Avanzini Llorente",
+            "stageName": "Daniela",
+            "dob": "01-07-2004",
+            "height": "5'5ft",
+            "position": "Main Dancer",
+            "nationality": "American",
+            "zodiacSign": "Cancer",
+            "instagram": "https://www.instagram.com/daniela_avanzini/",
+            "instagram_handle": "daniela_avanzini",
+            "facts": "Daniela is a huge fan of carti and lil uzi vert"
+        },
+    
+        {
+            "ID": "manon",
+            "photo": "../artistData/katseyeArtist/manon.jpg",
+            "name": "Meret Manon Sarpong Bannerman",
+            "stageName": "Manon",
+            "dob": "26-06-2002",
+            "height": "5'5ft",
+            "position": "Visual",
+            "nationality": "Swiss",
+            "zodiacSign": "Cancer",
+            "instagram": "https://www.instagram.com/meretmanon/",
+            "instagram_handle": "meretmanon",
+            "facts": "Manon is allergic to strawberries"
+        },
+    
+        {
+            "ID": "lara",
+            "photo": "../artistData/katseyeArtist/lara.jpg",
+            "name": "Lara Rajagopalan",
+            "stageName": "Lara",
+            "dob": "03-11-2005",
+            "height": "5'6ft",
+            "position": "Main Vocalist",
+            "nationality": "American",
+            "zodiacSign": "Scorpio",
+            "instagram": "https://www.instagram.com/lararajj/",
+            "instagram_handle": "lararajj",
+            "facts": "Lara is part of the LGBTQ+ community"
+        },
+        {
+            "ID": "megan",
+            "photo": "../artistData/katseyeArtist/megan.jpg",
+            "name": "Megan Meiyok Skiendiel",
+            "stageName": "Megan",
+            "dob": "10-02-2006",
+            "height": "5'6ft",
+            "position": "All Rounder",
+            "nationality": "American",
+            "zodiacSign": "Aquarius",
+            "instagram": "https://www.instagram.com/meganskiendiel/",
+            "instagram_handle": "meganskiendiel",
+            "facts": "Megan loves mathematics and she is part of the LGBTQ+ community"
+        },
+        {
+            "ID": "yoonchae",
+            "photo": "../artistData/katseyeArtist/yoonchae.jpg",
+            "name": "Jeung Yoon-chae",
+            "stageName": "Yoonchae",
+            "dob": "06-12-2007",
+            "height": "5'7ft",
+            "position": "Maknae",
+            "nationality": "Korean",
+            "zodiacSign": "Sagittarius",
+            "instagram": "https://www.instagram.com/y0on_cha3/",
+            "instagram_handle": "y0on_cha3",
+            "facts": "Yoonchae and Sophia are night owls"
+        }
+    
+    ],
+
+    "feedImages": 
+    [
+        {
+            "image": "../artistData/katseyeArtist/katseye-group-pic (3).jpg",
+            "imageAbout": "Katseye concert in Houston"
+        },
+        {
+            "image": "../artistData/katseyeArtist/katseye-group-pic (2).jpg",
+            "imageAbout": "Katseye concept photo"
+        },
+        {
+            "image": "../artistData/katseyeArtist/katseye-group-pic (1).jpg",
+            "imageAbout": "Katseye celebrating their single 'gnarly' being number 1 on tiktok"
+        }
+    ],
+
+    "agency": "HYBE",
+
+    "albums": 
+    [
+        {
+            "name": "INTERNET GIRL",
+            "image": "../artistData/katseyeArtist/katseye-nternet-girl.jpg",
+            "link": "https://youtu.be/5q9EjSUovc4?si=LCyYCiX6yTPlTZEw"
+        },
+        {
+            "name": "GNARLY",
+            "image": "../artistData/katseyeArtist/katseye-gnarly.jpg",
+            "link": "https://youtu.be/PkMKJEkE8Mo?si=xSP9g10enKPd6wCO"
+        },
+        {
+            "name": "GABRIELA",
+            "image": "../artistData/katseyeArtist/katseye-gabriela.jpg",
+            "link": "https://youtu.be/co-TFLbaZAE?si=InuluACecYmA-aE0"
+        },
+        {
+            "name": "GAMEBOY",
+            "image": "../artistData/katseyeArtist/katseye-gameboy.jpg",
+            "link": "https://www.youtube.com/watch?v=_ApV7Lm87cg&list=OLAK5uy_mUSidV3nitJ1fblQ0KEoqcrBnwLOGUjQM"
+        },
+        {
+            "name": "SOFT IS STRONG",
+            "image": "../artistData/katseyeArtist/katseye-sis.png",
+            "link": "https://www.youtube.com/watch?v=kG0z7hwY3as&list=OLAK5uy_kAHiEwAuPNcxOAXwVu9zpIRn3Jl0_2_Ao"
+        },
+        {
+            "name": "TOUCH",
+            "image": "../artistData/katseyeArtist/katseye-touch.jpg",
+            "link": "https://www.youtube.com/watch?v=LRPcSPglekU&list=OLAK5uy_ni_npNgET8fOazb0377_QJK6iO8KPgLDA"
+        },
+        {
+            "name": "DEBUT",
+            "image": "../artistData/katseyeArtist/katseye-debut.jpg",
+            "link": "https://www.youtube.com/watch?v=LRPcSPglekU&list=OLAK5uy_ni_npNgET8fOazb0377_QJK6iO8KPgLDA"
+        }
+    ]
+
+},
+
+{
+    "ID": "itzy",
+    "name": "ITZY",
+    "listeners": "4.1M",
+    "profileImage": "../artistData/itzyArtist/itzy-cover.jpg",
+    
+    "members": 
+    [
+        {
+            "ID": "yeji",
+            "photo": "../artistData/itzyArtist/yeji.jpg",
+            "name": "Hwang Ye-ji",
+            "stageName": "Yeji",
+            "dob": "26-05-2000",
+            "height": "5'6ft",
+            "position": "Leader, Main Dancer, Lead vocalist",
+            "nationality": "Korean",
+            "zodiacSign": "Gemini",
+            "instagram": "https://www.instagram.com/yezyizhere",
+            "instagram_handle": "yezyizhere",
+            "facts": "Yeji was a contestant on SBS's 'The fan(2018)' and was eliminated in episode 5"
+        },
+    
+        {
+            "ID": "lia",
+            "photo": "../artistData/itzyArtist/lia.jpg",
+            "name": "Choi ji-su",
+            "stageName": "Lia",
+            "dob": "21-07-2000",
+            "height": "5'3ft",
+            "position": "Main Vocalist, Sub-Rapper",
+            "nationality": "Korean",
+            "zodiacSign": "Cancer",
+            "instagram": "https://www.instagram.com/lia_loves___",
+            "instagram_handle": "lia_loves",
+            "facts": "in 2018, Lia did not paricipate in the 'BORN TO BE' comeback, due to health issues"
+        },
+    
+        {
+            "ID": "ryujin",
+            "photo": "../artistData/itzyArtist/ryujin.jpg",
+            "name": "Shin Ryu-jin",
+            "stageName": "Ryujin",
+            "dob": "17-04-2001",
+            "height": "5'4ft",
+            "position": "Main Rapper, Lead Dancer, center",
+            "nationality": "Korean",
+            "zodiacSign": "Aries",
+            "instagram": "https://www.instagram.com/iamfinethankyouandryu",
+            "instagram_handle": "iamfinethankyouandryu",
+            "facts": "She starred in BTS's Love yourself Highlight Reel as J-hope and Jimin's partner"
+        },
+    
+        {
+            "ID": "chaeryeong",
+            "photo": "../artistData/itzyArtist/chaeryeong.jpg",
+            "name": "Lee Chae-ryeong",
+            "stageName": "Chaeryeong",
+            "dob": "05-06-2001",
+            "height": "5'5ft",
+            "position": "Main Dancer, Sub-Vocalist, Sub-Rapper",
+            "nationality": "Korean",
+            "zodiacSign": "Gemini",
+            "instagram": "https://www.instagram.com/chaerrry0",
+            "instagram_handle": "chaerrry0",
+            "facts": "Chaeryeong was a contestant on 'SIXTEEN' when she was 14 and a contestant on 'K-POP STAR 3' when she was 11"
+        },
+        {
+            "ID": "yuna",
+            "photo": "../artistData/itzyArtist/yuna.jpg",
+            "name": "Shin Yu-na",
+            "stageName": "Yuna",
+            "dob": "09-12-2003",
+            "height": "5'7ft",
+            "position": "Lead Rapper, Lead Dancer",
+            "nationality": "Korean",
+            "zodiacSign": "Sagittarius",
+            "instagram": "https://www.instagram.com/igotyuandme",
+            "instagram_handle": "igotyuandme",
+            "facts": "Yuna used to play floorball for 4 years"
+        }
+    
+    ],
+
+    "feedImages": 
+    [
+        {
+            "image": "../artistData/itzyArtist/group-image-1.jpg",
+            "imageAbout": "ITZY <TUNNEL VISION> CONCEPT PHOTO"
+        },
+        {
+            "image": "../artistData/itzyArtist/group-image-2.jpg",
+            "imageAbout": "ITZY <GIRLS WILL BE GIRLS> CONCEPT PHOTO #2"
+        },
+        {
+            "image": "../artistData/itzyArtist/group-image-3.jpg",
+            "imageAbout": "ITZY <GIRLS WILL BE GIRLS> CONCEPT PHOTO #1"
+        }
+    ],
+
+    "agency": "JYP",
+
+    "albums": 
+    [
+        {
+            "name": "Tunnel vision",
+            "image": "../artistData/itzyArtist/tunnel-vision.jpg",
+            "link": "https://www.youtube.com/watch?v=HZ7x9Cki_MY&list=OLAK5uy_kbvuV9wzmOao1iycFv4AtCzLhNbxqjW4A"
+        },
+        {
+            "name": "Girls will be girls",
+            "image": "../artistData/itzyArtist/girls-will-be-girls.jpg",
+            "link": "https://www.youtube.com/watch?v=1KhOhW_O8-k&list=OLAK5uy_kOn2MXKtqDthFZ4Dgn_Cf85A580afOEUY"
+        },
+        {
+            "name": "Gold",
+            "image": "../artistData/itzyArtist/gold.jpg",
+            "link": "https://www.youtube.com/watch?v=eMk_0svqsnI&list=OLAK5uy_nyrMCcOsHzqTcjFDSlML-ZRn-mwYbtHAY"
+        },
+        {
+            "name": "Born to be",
+            "image": "../artistData/itzyArtist/born-to-be.jpg",
+            "link": "https://www.youtube.com/watch?v=4R7vRFGJr3k&list=OLAK5uy_l_8KDQas7ZVtpjlKe1kDBnrtEy9Syb63I"
+        },
+        {
+            "name": "kill my doubt",
+            "image": "../artistData/itzyArtist/kill-my-doubt.jpg",
+            "link": "https://www.youtube.com/watch?v=RmTq3cJqyCo&list=OLAK5uy_la-x2zpucxuv8c9TrHKB0hmRo7PribWPg"
+        },
+        {
+            "name": "cheshire",
+            "image": "../artistData/itzyArtist/CHESHIRE_.jpg",
+            "link": "https://www.youtube.com/watch?v=zugAhfd2r0g&list=OLAK5uy_muLXojEqUkdUmgA0klL0oGYBLgJxIpDsg"
+        },
+        {
+            "name": "Boys like you",
+            "image": "../artistData/itzyArtist/Boys-Like-You.png",
+            "link": "https://www.youtube.com/watch?v=6uZy86ePgO0&list=OLAK5uy_l8Kfvy8ZfDUJz8tTmZ_I_T4HbXyPs8-qU"
+        },
+        {
+            "name": "Checkmate",
+            "image": "../artistData/itzyArtist/CHECKMATE.jpg",
+            "link": "https://www.youtube.com/watch?v=Hbb5GPxXF1w&list=OLAK5uy_ni2Z8hfWZp7vyfLzs5OaTe4PsBq03jJ4c"
+        },
+        {
+            "name": "Crazy in love",
+            "image": "../artistData/itzyArtist/CRAZY-IN-LOVE.jpg",
+            "link": "https://www.youtube.com/watch?v=MjCZfZfucEc&list=OLAK5uy_mra7NTQUMbvsd5I6h5TxqxI5ITUzcp0jM"
+        },
+        {
+            "name": "In the morning",
+            "image": "../artistData/itzyArtist/in-the-morning.jpg",
+            "link": "https://www.youtube.com/watch?v=3ZIQz5FMdyE&list=OLAK5uy_m2aB0kadmQa6GYCLv8Ht43DIZipxm6kS0&pp=0gcJCbEEOCosWNin"
+        },
+        {
+            "name": "Guess Who",
+            "image": "../artistData/itzyArtist/guess-who.jpg",
+            "link": "https://www.youtube.com/watch?v=_ysomCGaZLw&list=OLAK5uy_nFnVdgHrRsoisAnPw2tXtiripWzXrjgZc"
+        },
+        {
+            "name": "Not Shy",
+            "image": "../artistData/itzyArtist/-Not-Shy.jpg",
+            "link": "https://www.youtube.com/watch?v=wTowEKjDGkU&list=OLAK5uy_nPjGA8r2stM0PsK0Y8mqwUC88ij41QWo0"
+        },
+        {
+            "name": "I'Z ICY",
+            "image": "../artistData/itzyArtist/-IT'z+ICY.jpg",
+            "link": "https://www.youtube.com/watch?v=zndvqTc4P9I&list=OLAK5uy_lvnqQKVbRxUYq0v4OHAQhsA1SjeBXWPZs"
+        },
+        {
+            "name": "IT'Z ME",
+            "image": "../artistData/itzyArtist/WANNABE.jpg",
+            "link": "https://www.youtube.com/watch?v=yeHZNPplmm4&list=OLAK5uy_kEwqargGjb3CgT9FVyaN-BgsQ4g2a8Rlc"
+        },
+        {
+            "name": "IT'Z DIFFERENT",
+            "image": "../artistData/itzyArtist/IT’z+Different.jpg",
+            "link": "https://www.youtube.com/watch?v=pNfTK39k55U&list=OLAK5uy_nhnVz4GiPyAvSHnsRHC320vn1LBaIw1SM"
+        }
+    ]
+
+},
+
+{
+    "ID": "f5ve",
+    "name": "f5ve",
+    "listeners": "272.K",
+    "profileImage": "../artistData/f5ve/f5ve-group-image2.jpg",
+    
+    "members": 
+    [
+        {
+            "ID": "kaede",
+            "photo": "../artistData/f5ve/kaede.jpg",
+            "name": "Dobashi Kaede",
+            "stageName": "Kaede",
+            "dob": "11-01-1996",
+            "height": "5'6ft",
+            "position": "Leader",
+            "nationality": "Japanese",
+            "zodiacSign": "Capricon",
+            "instagram": "https://www.instagram.com/kaede_",
+            "instagram_handle": "kaede_",
+            "facts": "Kaede once played 'APEX LEGENDS' for 10 hours because she is addicted to it"
+        },
+    
+        {
+            "ID": "sayaka",
+            "photo": "../artistData/f5ve/sayaka.jpg",
+            "name": "Nagatomo Sayaka",
+            "stageName": "Sayaka",
+            "dob": "20-09-1995",
+            "height": "5'0ft",
+            "position": "N/A",
+            "nationality": "Japanese",
+            "zodiacSign": "Virgo",
+            "instagram": "https://www.instagram.com/im_sayaka_official/",
+            "instagram_handle": "im_sayaka_official",
+            "facts": "Sayaka owns a fashion brand called 'SIRIUS +81'"
+        },
+    
+        {
+            "ID": "ruri",
+            "photo": "../artistData/f5ve/ruri.jpg",
+            "name": "Kawamoto Ruri",
+            "stageName": "Ruri",
+            "dob": "12-04-1996",
+            "height": "5'4ft",
+            "position": "N/A",
+            "nationality": "Japanese",
+            "zodiacSign": "Aries",
+            "instagram": "https://www.instagram.com/ruri_kawamoto_official/",
+            "instagram_handle": "ruri_kawamoto_offical",
+            "facts": "Ruri can play a guitar"
+        },
+    
+        {
+            "ID": "rui",
+            "photo": "../artistData/f5ve/rui.jpg",
+            "name": "Yokoi Rui",
+            "stageName": "Rui",
+            "dob": "04-11-2003",
+            "height": "5'2ft",
+            "position": "Main Vocalist",
+            "nationality": "Japanese",
+            "zodiacSign": "Gemini",
+            "instagram": "https://www.instagram.com/rui__official_/",
+            "instagram_handle": "im_rui.official",
+            "facts": "Rui when she's at karaoke, she often sings Avril Lavigne's 'COMPLICATED'"
+        },
+        {
+            "ID": "miyuu",
+            "photo": "../artistData/f5ve/miyuu.jpg",
+            "name": "Ariiso Miyuu",
+            "stageName": "Miyuu",
+            "dob": "16-08-1996",
+            "height": "5'1ft",
+            "position": "Vocalist, Dancer",
+            "nationality": "Japanese",
+            "zodiacSign": "Leo",
+            "instagram": "https://www.instagram.com/immiyuu_official/",
+            "instagram_handle": "immiyuu_offial",
+            "facts": "Miyuu's favorite anime are 'NARUTO' and 'BLUE LOCK"
+        }
+    
+    ],
+
+    "feedImages": 
+    [
+        {
+            "image": "../artistData/f5ve/f5ve-group-image-1.jpg",
+            "imageAbout": "f5ve for @nmemagazine"
+        },
+        {
+            "image": "../artistData/f5ve/f5ve-group-image-2.jpg",
+            "imageAbout": "🩷🩵💛💚💜"
+        },
+        {
+            "image": "../artistData/f5ve/f5ve-group-image-3.jpg",
+            "imageAbout": "Sequence 01.5 <album> out now"
+        },
+        {
+            "image": "../artistData/f5ve/f5ve-group-image.jpg",
+            "imageAbout": "𝘀𝘂𝗴𝗮𝗿 𝗳𝗿𝗲𝗲 𝘃𝗲𝗻𝗼𝗺 𝗳𝘁. @kesha 🐍🍸 MV + ALBUM - 05.05.2025"
+        }
+    ],
+
+    "agency": "fake star",
+
+    "albums": 
+    [
+        {
+            "name": "Sequence 01.5",
+            "image": "../artistData/f5ve/f5ve SEQUENCE 01.5.jpg",
+            "link": "https://www.youtube.com/watch?v=OR4XAMhsSCg&list=OLAK5uy_kY1eZVdvVSvVc-gtO7Z82exgWTpuk5vRU"
+        },
+        {
+            "name": "Sequence 01",
+            "image": "../artistData/f5ve/SEQUENCE-01-ALBUM.jpg",
+            "link": "https://www.youtube.com/watch?v=5WztVP9snNw&list=OLAK5uy_m78eqB6HYifrutGy4UC4zW8lZIrfvzsSo&pp=0gcJCbEEOCosWNin"
+        },
+        {
+            "name": "Magic clock",
+            "image": "../artistData/f5ve/magic-clock.jpg",
+            "link": "https://www.youtube.com/watch?v=xRdIYnRVrSU&list=OLAK5uy_mcDs8h8PMXCgd1AUJYMXTioBaWlOFyn2c"
+        },
+        {
+            "name": "Lettuce",
+            "image": "../artistData/f5ve/lettuce.jpg",
+            "link": "https://www.youtube.com/watch?v=uWDprhRTXMQ&list=OLAK5uy_nxlY9O3CXJ-36h9W7ALR6Zm736yHTfBNY"
+        },
+        {
+            "name": "UFO remix",
+            "image": "../artistData/f5ve/ufo-remix.jpg",
+            "link": "https://www.youtube.com/watch?v=aESGzjXgYsQ&list=OLAK5uy_mEnNyLiGQ8W7qFF7KC6_uvNxcpVN7smHw"
+        },
+        {
+            "name": "UFO",
+            "image": "../artistData/f5ve/UFO.jpg",
+            "link": "https://www.youtube.com/watch?v=Sk7-8SzMfRU&list=OLAK5uy_kO6z6yqUibeo57QAKBqnO_-6nZwup-Il0"
+        },
+        {
+            "name": "Firetruck",
+            "image": "../artistData/f5ve/underground-remixes.jpg",
+            "link": "https://www.youtube.com/watch?v=uWDprhRTXMQ&list=OLAK5uy_nxlY9O3CXJ-36h9W7ALR6Zm736yHTfBNY"
+        },
+        {
+            "name": "Underground remix",
+            "image": "../artistData/f5ve/underground-remixes.jpg",
+            "link": "https://www.youtube.com/watch?v=ewco744R66w&list=OLAK5uy_kISm4r7TycU75Zl9cXkU21gpqrUkaxgLs"
+        },
+        {
+            "name": "Underground",
+            "image": "../artistData/f5ve/underground.jpg",
+            "link": "https://www.youtube.com/watch?v=ewco744R66w&list=OLAK5uy_lSrm8rd3gNUL4dT8G_yIIr9R0Rq2sGEbk"
+        }
+    ]
+
+},
+
+{
+    "ID": "illit",
+    "name": "ILLIT",
+    "listeners": "16.5M",
+    "profileImage": "../artistData/illitArtist/illit-group-image.jpg",
+    
+    "members": 
+    [
+        {
+            "ID": "yunah",
+            "photo": "../artistData/illitArtist/yunah.jpg",
+            "name": "Noh Yun-ah",
+            "stageName": "Yunah",
+            "dob": "15-01-2004",
+            "height": "5'6ft",
+            "position": "N/A",
+            "nationality": "Korean",
+            "zodiacSign": "Capricon",
+            "instagram": "N/A",
+            "instagram_handle": "N/A",
+            "facts": "She likes ironing clothes"
+        },
+    
+        {
+            "ID": "iroha",
+            "photo": "../artistData/illitArtist/iroha.jpg",
+            "name": "Hokazono Iroha",
+            "stageName": "Iroha",
+            "dob": "04-02-2008",
+            "height": "5'2ft",
+            "position": "N/A",
+            "nationality": "Japanese",
+            "zodiacSign": "Aquarius",
+            "instagram": "N/A",
+            "instagram_handle": "N/A",
+            "facts": "Iroha is a perfectionist"
+        },
+    
+        {
+            "ID": "minju",
+            "photo": "../artistData/illitArtist/minju.jpg",
+            "name": "Park Min-ju",
+            "stageName": "Minju",
+            "dob": "11-05-2004",
+            "height": "5'4ft",
+            "position": "N/A",
+            "nationality": "Korean",
+            "zodiacSign": "Taurus",
+            "instagram": "N/A",
+            "instagram_handle": "N/A",
+            "facts": "Minju is a former YG entertainment trainee and she's friends with the 'BABYMONSTER' members"
+        },
+    
+        {
+            "ID": "wonhee",
+            "photo": "../artistData/illitArtist/wonhee.jpg",
+            "name": "Lee Won-hee",
+            "stageName": "Wonhee",
+            "dob": "26-06-2007",
+            "height": "5'4ft",
+            "position": "N/A",
+            "nationality": "Korean",
+            "zodiacSign": "Cancer",
+            "instagram": "N/A",
+            "instagram_handle": "N/A",
+            "facts": "Wonhee loves playing sports and she was the head of the sports department at her school"
+        },
+        {
+            "ID": "moka",
+            "photo": "../artistData/illitArtist/moka.jpg",
+            "name": "Sakai Moka ",
+            "stageName": "Moka",
+            "dob": "08-10-2004",
+            "height": "5'4ft",
+            "position": "N/A",
+            "nationality": "Japanese",
+            "zodiacSign": "Libra",
+            "instagram": "N/A",
+            "instagram_handle": "N/A",
+            "facts": "Moka is scared of heights"
+        }
+    
+    ],
+
+    "feedImages": 
+    [
+        {
+            "image": "../artistData/illitArtist/illit-group-image-1.jpg",
+            "imageAbout": "Issue 15 holiday for High Society "
+        },
+        {
+            "image": "../artistData/illitArtist/illit-group-image-2.jpg",
+            "imageAbout": "Illit group image"
+        },
+        {
+            "image": "../artistData/illitArtist/illit-group-image-3.jpg",
+            "imageAbout": "Yunah and minju for apple"
+        }
+    ],
+
+    "agency": "BE:LIFT Lab",
+
+    "albums": 
+    [
+        {
+            "name": "Not cute anymore",
+            "image": "../artistData/illitArtist/im-not-cute-anymore.jpg",
+            "link": "https://www.youtube.com/watch?v=x_RYZsOfpKY&list=OLAK5uy_kEpjq6JGrkXOJnRGybRMNmMaBo9dDa0Co"
+        },
+        {
+            "name": "Bomb",
+            "image": "../artistData/illitArtist/bomb.jpg",
+            "link": "https://www.youtube.com/watch?v=O4GnXupvK3Y&list=OLAK5uy_kvsoDcbQDNwIFWIzS6fPqZu-OlBLiHi5A"
+        },
+        {
+            "name": "Almond chocolate",
+            "image": "../artistData/illitArtist/almound-chocolate.jpg",
+            "link": "https://www.youtube.com/watch?v=qlgEadao-Sk&list=OLAK5uy_lv-rvAN0d-_4AId2suqtB9wJJP6zwrBeA"
+        },
+        {
+            "name": "Tick-Tack",
+            "image": "../artistData/illitArtist/tick-tack.jpg",
+            "link": "https://youtu.be/-nEGVrzPaiU?list=RD-nEGVrzPaiU"
+        },
+        {
+            "name": "Super real me",
+            "image": "../artistData/illitArtist/super-real-me.jpg",
+            "link": "https://www.youtube.com/watch?v=X1xQhbffaN8&list=OLAK5uy_m2_XrPyDnxIVRZBXUc6Vp8KbTPVwebzeI"
+        }
+    ]
+
+}
+
+]
+
+
+    
+
+    
+
