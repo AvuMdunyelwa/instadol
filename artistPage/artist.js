@@ -1,6 +1,7 @@
 import {renderGrid,createImageCard, createMemberCard, createAlbumCard, imageView, imgView} from './imageCards.js';
 import { createCalendar } from "./calendar.js";
 import { hamburger } from '../hamburgerMenu.js';
+import {createElements} from '../createElements.js';
 
 const gallery = document.querySelector('#gallery');
 const members = document.querySelector('#members');
@@ -56,16 +57,11 @@ function profileDisplay(artists) {
             pageTitle.innerHTML = `${artist.name} | instadol`;
             const headerWrapper = document.querySelector('#header');
             const asideContent = document.querySelector('aside');
-            const profilePic = document.createElement('img');
-            profilePic.src = artist.profileImage;
-        
-            const userName = document.createElement('h1');
-            userName.classList.add('user-name');
-            userName.innerHTML = artist.name;
-        
-            const profileInfo = document.createElement('p');
-            profileInfo.classList.add('info-about-profile');
-            profileInfo.innerHTML = `${artist.listeners}+ monthly listeners <br> ${artist.agency} entertainment`;
+
+            //creating profile elements
+            const profilePic = createElements('img', {className: 'profile-Image', text: null, src: artist.profileImage});        
+            const userName = createElements('h1', {className: 'user-name', text: artist.name, src: null});
+            const profileInfo = createElements('p', {className: 'info-about-profile', text: `${artist.listeners}+ monthly listeners <br> ${artist.agency} entertainment`, src: null});
             profileInfo.style.color = 'rgb(247, 247, 247)';
 
             asideContent.append(userName, profileInfo);
@@ -74,18 +70,6 @@ function profileDisplay(artists) {
     }
     })
 }
-
-function assembleElemnts(element) {
-
-}
-
-function createElement({type= null, className= null, text= null, src=null}) {
-    const element = document.createElement(type);
-    element.classList.add(className);
-    element.innerHTML = text;
-    element.scr = src
-}
-
 
 //body tabs
 const tabs = document.querySelectorAll('#body-menu ul li');
@@ -112,5 +96,6 @@ tabs.forEach(tab => {
 
     });
 });
+
 
 
