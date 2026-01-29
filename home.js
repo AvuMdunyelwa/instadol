@@ -1,5 +1,5 @@
-import { hamburger } from "../hamburgerMenu.js";
-
+import { hamburger } from "hamburgerMenu.js";
+console.log('js working')
 let currentIndex = 0;
 let slideInterval = 5000;
 const heroBg = document.querySelector('#hero-banner');
@@ -99,4 +99,5 @@ function displayArticleCard(data, length) {
     articleInfo.append(articleAuthor,articleTitle,articleContent,articleLink);
     article.append(coverWrapper,articleInfo);
     newsBlock.appendChild(article);
+
 }
