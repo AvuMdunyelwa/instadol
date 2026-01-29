@@ -1,4 +1,4 @@
-import { hamburger } from "hamburgerMenu.js";
+import { hamburger } from "./hamburgerMenu.js";
 console.log('js working')
 let currentIndex = 0;
 let slideInterval = 5000;
@@ -101,3 +101,4 @@ function displayArticleCard(data, length) {
     newsBlock.appendChild(article);
 
 }
+
