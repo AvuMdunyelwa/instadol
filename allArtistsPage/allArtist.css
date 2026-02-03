@@ -229,7 +229,7 @@ footer {
     #logo {
         width: 14%;
         margin-top: 1rem; 
-       
+        z-index: 2;
     }
     
     nav {
@@ -247,7 +247,7 @@ footer {
             padding: 7em 1em;
             left: -250px;
             transition: 0.3s ease-in-out;
-            z-index: 4;
+           
         }
 
         ul.active {
@@ -334,4 +334,5 @@ footer {
     }
 
 }
+
 
