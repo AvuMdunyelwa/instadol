@@ -15,14 +15,13 @@ function getArtistID() {
     const artistURLparam = new URLSearchParams(window.location.search);
     const returnArtistID = artistURLparam.get('id');
     artistID = returnArtistID;
-    console.log(artistID);
 };
 getArtistID()
 
 //data display
 async function dataRetrieval() {
     try {
-        const response = await fetch('../../artistData/artistData.json');
+        const response = await fetch('../artistData/artistData.json');
         const data = await response.json();
         const artist0 = data;
         loadData(artist0);
@@ -96,6 +95,7 @@ tabs.forEach(tab => {
 
     });
 });
+
 
 
 
