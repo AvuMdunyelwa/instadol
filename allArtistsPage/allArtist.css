@@ -247,7 +247,7 @@ footer {
             padding: 7em 1em;
             left: -250px;
             transition: 0.3s ease-in-out;
-            
+            z-index: 4;
         }
 
         ul.active {
@@ -332,4 +332,5 @@ footer {
     footer {
         margin-top: 12rem;
     }
+
 }
