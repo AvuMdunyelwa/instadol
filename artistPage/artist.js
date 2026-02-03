@@ -24,6 +24,7 @@ async function dataRetrieval() {
         const response = await fetch('../artistData/artistData.json');
         const data = await response.json();
         const artist0 = data;
+        console.log(artist0);
         loadData(artist0);
     }
     catch(error) {
