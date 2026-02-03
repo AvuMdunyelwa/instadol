@@ -5,7 +5,7 @@ let allArtists;
 
 async function fetchArtistData() {
     try {
-        const response = await fetch('../../artistData/artistData.json');
+        const response = await fetch('../artistData/artistData.json');
         const data = await response.json();
         allArtists = data;
         pushToArray(allArtists);
@@ -70,3 +70,4 @@ function searchResults(artistData) {
         createArtistCard(filteredArtists);
     })
 }
+
