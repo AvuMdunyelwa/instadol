@@ -117,7 +117,7 @@ main {
     width: 100%;
     height: fit-content;
     position: relative;
-    top: 20%;
+    top: 90px;
 }
 
 #wrapper {
@@ -310,10 +310,6 @@ footer {
             transform: translate(-50%, 50%) rotate(-45deg);
         }
     }
-    
-    main{
-        top: 15%;
-    }
 
     #wrapper {
         max-width: 100%;
@@ -334,5 +330,6 @@ footer {
     }
 
 }
+
 
 
