@@ -767,6 +767,7 @@ footer {
             .profile_card {
                 .member_name {
                     font-size: 1rem;
+                    color: palevioletred;
              }
             }
             
