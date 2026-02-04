@@ -183,7 +183,6 @@ main {
 footer {
     display: flex;
     gap: 3em;
-    align-items: flex-end;
     position: relative;
     padding: 1em;
     height: fit-content;
