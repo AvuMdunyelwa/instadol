@@ -181,6 +181,7 @@ main {
 
 /* footer */
 footer {
+    margin-top: auto;
     display: flex;
     gap: 3em;
     align-items: flex-end;
