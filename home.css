@@ -331,10 +331,9 @@ footer {
 /*small screens (mobile)*/
 @media only screen and (max-width: 480px) and (orientation: portrait) {
     
-    
     /* navigation */
     header {
-        height: 6vh;
+        height: 6svh;
         padding: 2.5em 1em;
         background-color: var(--header-color);
     }
@@ -553,4 +552,5 @@ footer {
             }
         }
     }
+
 }
