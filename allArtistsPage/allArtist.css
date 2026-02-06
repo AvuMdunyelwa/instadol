@@ -181,7 +181,7 @@ main {
 
 /* footer */
 footer {
-    margin-top: auto;
+    margin-top: 2rem;
     display: flex;
     gap: 3em;
     align-items: flex-end;
@@ -217,8 +217,12 @@ footer {
 
 @media only screen and (max-width: 480px) and (orientation: portrait){
      /* navigation */
+    body {
+        min-height: 100svh;
+    }
+    
     header {
-        height: 6vh;
+        height: 6svh;
         padding: 2.5em 1em;
         background-color: var(--header-color);
     }
@@ -240,7 +244,7 @@ footer {
         ul {
             width: 50%;
             background-color: var(--header-color);
-            height: 100vh;
+            height: 100svh;
             position: fixed;
             top: 0%;
             left: 0;
@@ -324,7 +328,7 @@ footer {
     }
 
     .artist-link {
-        height: 20vh;
+        height: 20svh;
     }
 
     footer {
@@ -332,6 +336,7 @@ footer {
     }
 
 }
+
 
 
 
