@@ -117,7 +117,7 @@ main {
     width: 100%;
     height: fit-content;
     position: relative;
-    top: 90px;
+    margin-top: 6rem;
 }
 
 #wrapper {
@@ -332,6 +332,7 @@ footer {
     }
 
 }
+
 
 
 
